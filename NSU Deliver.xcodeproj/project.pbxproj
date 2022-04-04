@@ -21,27 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D91294C27FB29CE00F3BE7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D91291427FB29CD00F3BE7B;
-			remoteInfo = "NSU Deliver v2";
-		};
-		5D91294E27FB29CE00F3BE7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D91292927FB29CD00F3BE7B;
-			remoteInfo = "NSU Deliver v2Tests";
-		};
-		5D91295027FB29CE00F3BE7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D91293327FB29CD00F3BE7B;
-			remoteInfo = "NSU Deliver v2UITests";
-		};
 		5DB3788227CFB4D000D6AC2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DB3786927CFB4CE00D6AC2D /* Project object */;
@@ -63,7 +42,6 @@
 		5D0FAA4527EA6E4E009E87D4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5D90381127D10C8E00E69D42 /* Search Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Screen.swift"; sourceTree = "<group>"; };
 		5D90381327D1162100E69D42 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
-		5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "NSU Deliver v2.xcodeproj"; path = "../../Documents/NSU Deliver v2/NSU Deliver v2.xcodeproj"; sourceTree = "<group>"; };
 		5DB3787127CFB4CE00D6AC2D /* NSU Deliver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSU Deliver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB3787427CFB4CE00D6AC2D /* NSU_DeliverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSU_DeliverApp.swift; sourceTree = "<group>"; };
 		5DB3787627CFB4CE00D6AC2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,20 +79,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D91294727FB29CD00F3BE7B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D91294D27FB29CE00F3BE7B /* NSU Deliver v2.app */,
-				5D91294F27FB29CE00F3BE7B /* NSU Deliver v2Tests.xctest */,
-				5D91295127FB29CE00F3BE7B /* NSU Deliver v2UITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5DB3786827CFB4CE00D6AC2D = {
 			isa = PBXGroup;
 			children = (
-				5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */,
 				5D0FAA4027EA67A3009E87D4 /* ChickFilA items.xcdatamodeld */,
 				5DB3787327CFB4CE00D6AC2D /* NSU Deliver */,
 				5DB3788427CFB4D000D6AC2D /* NSU DeliverTests */,
@@ -262,12 +229,6 @@
 			mainGroup = 5DB3786827CFB4CE00D6AC2D;
 			productRefGroup = 5DB3787227CFB4CE00D6AC2D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5D91294727FB29CD00F3BE7B /* Products */;
-					ProjectRef = 5D91294627FB29CD00F3BE7B /* NSU Deliver v2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5DB3787027CFB4CE00D6AC2D /* NSU Deliver */,
@@ -276,30 +237,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5D91294D27FB29CE00F3BE7B /* NSU Deliver v2.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "NSU Deliver v2.app";
-			remoteRef = 5D91294C27FB29CE00F3BE7B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D91294F27FB29CE00F3BE7B /* NSU Deliver v2Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "NSU Deliver v2Tests.xctest";
-			remoteRef = 5D91294E27FB29CE00F3BE7B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D91295127FB29CE00F3BE7B /* NSU Deliver v2UITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "NSU Deliver v2UITests.xctest";
-			remoteRef = 5D91295027FB29CE00F3BE7B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5DB3786F27CFB4CE00D6AC2D /* Resources */ = {
